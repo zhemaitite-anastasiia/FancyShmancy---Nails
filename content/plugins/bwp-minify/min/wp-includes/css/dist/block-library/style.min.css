@@ -2812,7 +2812,7 @@
   0 0 20px}.airkit_vertical-menu .dropdown-menu,
   .airkit_vertical-menu .navbar-default .airkit_menu-content{padding:20px}.airkit_vertical-menu .nav-pills{max-width:200px}.dropme-left::after,.nav-pills>li>a::after{content:"\f107"}.airkit_menu .nav-pills,
   .airkit_vertical-menu .nav-pills{width:100%;padding:0;max-width:100%;margin-bottom:20px}.airkit_menu .nav-center .navbar-collapse>ul>li{display:block}.airkit_sidebar-menu .navbar-default{max-width:80%}.airkit_sidebar-menu.nav-left .navbar-default{left:-10px;padding-left:10px}.airkit_fullscreen-menu .navbar-default{max-width:100%}.airkit_sidebar-menu.shown>.sb-menu-toggle{visibility:hidden}.airkit_sidebar-menu:not(.airkit_fullscreen-menu) .navbar .navbar-collapse .navbar-nav,
-  .airkit_sidebar-menu:not(.airkit_fullscreen-menu) .navbar .navbar-collapse .navbar-nav li ul.dropdown-menu{text-align:left}.airkit_sidebar-menu:not(.airkit_fullscreen-menu) .navbar .navbar-collapse .navbar-nav li a,
+  .airkit_sidebar-menu:not(.airkit_fullscreen-menu) .navbar .navbar-collapse .navbar-nav li ul.dropdown-menu{text-align:left;margin-top:30px;}.airkit_sidebar-menu:not(.airkit_fullscreen-menu) .navbar .navbar-collapse .navbar-nav li a,
   .airkit_sidebar-menu:not(.airkit_fullscreen-menu) .navbar .navbar-collapse .navbar-nav li ul.dropdown-menu li
   a{text-align:inherit}.airkit_sidebar-menu:not(.airkit_fullscreen-menu) .navbar .navbar-collapse .navbar-nav li ul.dropdown-menu li
   a{padding-left:20px}.airkit_menu-with-logo .sb-menu-toggle .hamburger-box{margin-right:20px}.airkit_menu-with-logo
