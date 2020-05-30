@@ -250,11 +250,11 @@ if(opts.force_process){setTimeout(process,opts.interval);}
 selectors.push(selector);return $(selector);}});$.extend({force_appear:function(){if(check_binded){process();return true;};return false;}});})(jQuery);
 /*!
  * jQuery doTimeout: Like setTimeout, but better! - v1.0 - 3/3/2010
- * http://benalman.com/projects/jquery-dotimeout-plugin/
+ * https://benalman.com/projects/jquery-dotimeout-plugin/
  * 
  * Copyright (c) 2010 "Cowboy" Ben Alman
  * Dual licensed under the MIT and GPL licenses.
- * http://benalman.com/about/license/
+ * https://benalman.com/about/license/
  */
 (function($){'$:nomunge';var cache={},doTimeout='doTimeout',aps=Array.prototype.slice;$[doTimeout]=function(){return p_doTimeout.apply(window,[0].concat(aps.call(arguments)));};$.fn[doTimeout]=function(){var args=aps.call(arguments),result=p_doTimeout.apply(this,[doTimeout+args[0]].concat(args));return typeof args[0]==='number'||typeof args[1]==='number'?this:result;};function p_doTimeout(jquery_data_key){var that=this,elem,data={},method_base=jquery_data_key?$.fn:$,args=arguments,slice_args=4,id=args[1],delay=args[2],callback=args[3];if(typeof id!=='string'){slice_args--;id=jquery_data_key=0;delay=args[1];callback=args[2];}
 if(jquery_data_key){elem=that.eq(0);elem.data(jquery_data_key,data=elem.data(jquery_data_key)||{});}else if(id){data=cache[id]||(cache[id]={});}
